@@ -14,14 +14,12 @@ class CLI
    
   def welcome
     puts "Welcome to The Star Wars Films List"
-      # sleep(2)
-    # puts "Please select a title from the list for more information"
   end
 
   def menu
     input = nil
     while input != "exit"
-      puts "Enter the number of the movie you want more info on ortype list to return or type exit."
+      puts "Enter the number of the movie you want more info on or type list to return or type exit."
       input = gets.strip.downcase
         case input
       when '1'
@@ -50,27 +48,9 @@ class CLI
       end
     end
   end
-
-  # def menu
-  #   input = nil
-  #   while input != "exit"
-  #     puts "Enter the number of the movie you want more info on or type list to return to list or type exit."
-  #       input = gets.strip.downcase
-  #        case input
-  #       when '1'
-  #         API.get_film_description(API.all_films[0])
-  #         puts API.description
-  #       # puts "More info on Movie 1"
-  #       when '2'
-  #       # puts "More info on Movie 2"
-  #         API.get_film_description(API.all_films[0])
-  #         puts API.description
-  #       end
-  #   end
-  # end
-
+  
   def goodbye
-    puts "See you later, may the FORCE be with you"
+    puts "See you later, may the FORCE be with you!!"
   end
 
   def get_film_list
