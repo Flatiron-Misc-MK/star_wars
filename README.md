@@ -1,12 +1,8 @@
 # StarWars
 
-All the Star Wars data you've ever wanted:
-
-Planets, Spaceships, Vehicles, People, Films and Species
+All the Star Wars movie descriptions you've ever wanted:
 
 From all SEVEN Star Wars films
-
-Now with The Force Awakens data!
 
 #StarWars 
 
