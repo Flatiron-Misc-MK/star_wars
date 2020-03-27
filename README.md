@@ -26,9 +26,6 @@ Or install it yourself as:
 
     $ gem install star_wars
 
-## Usage
-
-TODO: Write usage instructions here
 
 ## Development
 
