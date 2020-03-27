@@ -3,7 +3,7 @@ class API
   def self.get_films
     response = HTTParty.get('https://swapi.co/api/films/')
 
-    # binding.pry
+    binding.pry
     @@all_films = response['results'].map{|hash| hash['title']}
     #  response['results'].map(&:values)
       
