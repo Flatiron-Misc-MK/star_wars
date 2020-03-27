@@ -1,5 +1,15 @@
 # StarWars
 
+All the Star Wars data you've ever wanted:
+
+Planets, Spaceships, Vehicles, People, Films and Species
+
+From all SEVEN Star Wars films
+
+Now with The Force Awakens data!
+
+#StarWars 
+
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/star_wars`. To experiment with that code, run `bin/console` for an interactive prompt.
 
 TODO: Delete this and the text above, and describe your gem
