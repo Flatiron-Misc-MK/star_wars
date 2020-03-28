@@ -1,11 +1,11 @@
 class Films
-    attr_acessor :title, :episode_id
+    attr_acessor :title
 
     @@all = []
 
-    def initialize(title, episode_id)
+    def initialize(title)
         @title = title
-        @episode_id = episode_id
+        # @episode_id = episode_id
         @@all <<self
     end
 
