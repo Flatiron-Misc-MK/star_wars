@@ -1,15 +1,15 @@
-class Films
-    attr_acessor :title
+# class Films
+#     attr_acessor :title
 
-    @@all = []
+#     @@all = []
 
-    def initialize(title)
-        @title = title
-        # @episode_id = episode_id
-        @@all <<self
-    end
+#     def initialize(title)
+#         @title = title
+#         # @episode_id = episode_id
+#         @@all <<self
+#     end
 
-    def self.all
-        @@all
-    end
-end
+#     def self.all
+#         @@all
+#     end
+# end
