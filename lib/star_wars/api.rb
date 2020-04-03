@@ -3,9 +3,9 @@ class API
 	def initialize(title)
 		@title = title
 	end
-	def self.get_films
+  def self.get_films
 		@response = HTTParty.get('https://swapi.co/api/films/')
-		@all_films = []
+    @all_films = []
 		@response['results'].each do |film|
 			@all_films << film
 		end
