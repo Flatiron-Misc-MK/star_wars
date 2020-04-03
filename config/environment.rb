@@ -7,5 +7,5 @@ require 'pry'
 
 require_relative "../lib/star_wars/api.rb"
 require_relative "../lib/star_wars/cli.rb"
-require_relative "../lib/star_wars/films.rb"
+require_relative "../lib/star_wars/film.rb"
 require_relative "../lib/star_wars/version"
