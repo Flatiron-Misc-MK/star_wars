@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
+#to run program bin/run
 
 require_relative "../config/environment.rb"
 
-CLI.new.start
+CLI.new.start#create a new instance of start
 #CLI connection test
