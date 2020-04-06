@@ -1,7 +1,10 @@
+#This is my CLI project.this section deals with the interaction of the users.
+#Compromised of instance methods/
+
 class CLI
  
   #class method
-  def start #instance method/ creates the flow of the program/starts
+  def start #instance method/ creates the flow of the program/starts/bin/run calls on this file
     self.welcome
     self.get_film_list
     self.menu
