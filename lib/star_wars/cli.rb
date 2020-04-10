@@ -1,6 +1,5 @@
 #This is my CLI project.this section deals with the interaction of the users.
 #Compromised of instance methods/
-
 class CLI
  
   #class method
@@ -19,28 +18,44 @@ class CLI
     while input != "exit"
       puts "Enter the number of the movie you want more info on or type list to exit or type exit."
       input = gets.strip.downcase #removes whitespace
+      #start of film title arrays/puts film title by number selected in array in Film class
         case input
       when '1'
-        film = Film.all[0] #start of film title arrays/puts film title by number selected in array in Film class
-        puts film.opening_crawl #displays response for the description of film
+        film = Film.all[0]
+        puts film.overview 
+        puts film.release_date#displays response for the description of film
       when '2'
         film = Film.all[1]
-        puts film.opening_crawl
+        puts film.overview
+        puts film.release_date
       when '3'
         film = Film.all[2]
-        puts film.opening_crawl
+        puts film.overview
+        puts film.release_date
       when '4'
         film = Film.all[3]
-        puts film.opening_crawl
+        puts film.overview
+        puts film.release_date
       when '5'
         film = Film.all[4]
-        puts film.opening_crawl
+        puts film.overview
+        puts film.release_date
       when '6'
         film = Film.all[5]
-        puts film.opening_crawl
+        puts film.overview
+        puts film.release_date
       when '7'
         film = Film.all[6]
-        puts film.opening_crawl
+        puts film.overview
+        puts film.release_date
+      when '8'
+        film = Film.all[7]
+        puts film.overview
+        puts film.release_date
+      when '9'
+        film = Film.all[8]
+        puts film.overview
+        puts film.release_date
       when "list"
         display_film_list #runs display_film_list method
       end
